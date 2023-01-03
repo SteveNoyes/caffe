@@ -25,9 +25,7 @@
 - CSS  
 - Coffee
 
-
 ### Featured Section
-
 
 ```html
 ```

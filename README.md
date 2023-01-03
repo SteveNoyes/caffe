@@ -15,7 +15,7 @@
 ### Links
 
 - Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://pages.github.com/)
+- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/caffe/)
 
 ## My process
 

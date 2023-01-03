@@ -1,0 +1,17 @@
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  background: #252c32;
+  display: grid;
+  font-family: monospace, sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 100;
+}

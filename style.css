@@ -1,3 +1,4 @@
+
 html {
   display: grid;
   min-height: 100%;
@@ -16,11 +17,148 @@ h3 {
   font-weight: 100;
 }
 
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 500px;
+  height: 700px;
+}
 
+.bar {
+  position: absolute;
+  height: 85%;
+  width: 2px;
+  left: 7%;
+  top: 7.5%;
+  background: #f4e8da;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  left: -5px;
+  border: 1px solid #f4e8da;
+  box-shadow: 0px 0px 7px rgba(244, 232, 218, 100);
+}
+
+.top {
+  background: #5b4644;
+  top: -1%;
+}
+.middle {
+  background: #87624f;
+  top: 38%;
+}
+.bottom {
+  background: #dab7a3;
+  bottom: -1%;
+}
+.bold {
+  color: #87624f;
+  position: absolute;
+  top: -7%;
+  left: -17px;
+}
+.creamy {
+  color: #dab7a3;
+  position: absolute;
+  bottom: -7%;
+  left: -27px;
+}
+.info {
+  width: 55%;
+  height: 100%;
+  position: absolute;
+  left: 43%;
+}
+.coffee-cups {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  top: 3%;
+}
+.handle {
+  position: absolute;
+  height: 20px;
+  width: 15px;
+  background: transparent;
+  border-radius: 50% 30%;
+  left: 95%;
+  top: 10%;
+  z-index: -1;
+  border: 2px solid #f4e8da;
+}
+.cup {
+  position: absolute;
+  width: 70px;
+  height: 55px;
+  background: #252c32;
+  border: 2px solid #f4e8da;
+  border-radius: 0 0 5rem 5rem;
+  left: 20%;
+}
+.cup-small {
+  position: absolute;
+  width: 55px;
+  height: 40px;
+  background: #252c32;
+  border: 2px solid #f4e8da;
+  border-radius: 0 0 5rem 5rem;
+  left: 23%;
+}
+.cup-long {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  background: #252c32;
+  border: 2px solid #f4e8da;
+  border-radius: 10% 10% 50% 50%;
+  left: 22%;
+}
+.doppio {
+  top: 5%;
+  background: linear-gradient(to bottom, #252c32 40%, #5b4644 40%, #87624f 70%);
+}
+.americano {
+  top: 18.5%;
+  background: linear-gradient(to bottom, #252c32 13%, #859fb5 13%, #859fb5 50%, #87624f 50%);
+}
+.macchiato {
+  top: 35%;
+  background: linear-gradient(to bottom, #252c32 20%, #f4e8da 20%, #f4e8da 40%, #87624f 40%);
+}
+.flatwhite {
+  top: 50%;
+  background: linear-gradient(to bottom, #252c32 10%, #f4e8da 10%, #dab7a3 60%, #87624f 65%, #5b4644 90%);
+}
+.cappuccino {
+  top: 64%;
+  background: linear-gradient(to bottom, #f4e8da 50%, #dab7a3 50%, #dab7a3 55%, #87624f 60%);
+}
+.latte {
+  top: 81%;
+  background: linear-gradient(to bottom, #252c32 5%, #f4e8da 5%, #f4e8da 30%, #dab7a3 30%, #dab7a3 70%, #87624f 70%);
+}
+h1 {
+  color: #f4e8da;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+p {
+  color: #f4e8da;
+  font-family: monospace, serif;
+  text-transform: none;
+  font-size: 0.7em;
+  letter-spacing: 0.5px;
+  margin-top: -5px;
+}
 .first, .second, .third, .fourth, .fifth, .sixth {
   position: absolute;
 }
-
 .first {
   top: 7%;
 }
@@ -39,14 +177,6 @@ h3 {
 .sixth {
   top: 83%;
 }
-
-.info {
-  width: 55%;
-  height: 100%;
-  position: absolute;
-  left: 43%;
-}
-
 .small {
   margin-left: 20px;
   margin-top: -1px;
@@ -79,30 +209,4 @@ h3 {
   background: #859fb5;
   position: absolute;
   left: 83%;
-}
-
-
-.doppio {
-  top: 5%;
-  background: linear-gradient(to bottom, #252c32 40%, #5b4644 40%, #87624f 70%);
-}
-.americano {
-  top: 18.5%;
-  background: linear-gradient(to bottom, #252c32 13%, #859fb5 13%, #859fb5 50%, #87624f 50%);
-}
-.macchiato {
-  top: 35%;
-  background: linear-gradient(to bottom, #252c32 20%, #f4e8da 20%, #f4e8da 40%, #87624f 40%);
-}
-.flatwhite {
-  top: 50%;
-  background: linear-gradient(to bottom, #252c32 10%, #f4e8da 10%, #dab7a3 60%, #87624f 65%, #5b4644 90%);
-}
-.cappuccino {
-  top: 64%;
-  background: linear-gradient(to bottom, #f4e8da 50%, #dab7a3 50%, #dab7a3 55%, #87624f 60%);
-}
-.latte {
-  top: 81%;
-  background: linear-gradient(to bottom, #252c32 5%, #f4e8da 5%, #f4e8da 30%, #dab7a3 30%, #dab7a3 70%, #87624f 70%);
 }

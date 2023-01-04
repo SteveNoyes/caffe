@@ -80,3 +80,29 @@ h3 {
   position: absolute;
   left: 83%;
 }
+
+
+.doppio {
+  top: 5%;
+  background: linear-gradient(to bottom, #252c32 40%, #5b4644 40%, #87624f 70%);
+}
+.americano {
+  top: 18.5%;
+  background: linear-gradient(to bottom, #252c32 13%, #859fb5 13%, #859fb5 50%, #87624f 50%);
+}
+.macchiato {
+  top: 35%;
+  background: linear-gradient(to bottom, #252c32 20%, #f4e8da 20%, #f4e8da 40%, #87624f 40%);
+}
+.flatwhite {
+  top: 50%;
+  background: linear-gradient(to bottom, #252c32 10%, #f4e8da 10%, #dab7a3 60%, #87624f 65%, #5b4644 90%);
+}
+.cappuccino {
+  top: 64%;
+  background: linear-gradient(to bottom, #f4e8da 50%, #dab7a3 50%, #dab7a3 55%, #87624f 60%);
+}
+.latte {
+  top: 81%;
+  background: linear-gradient(to bottom, #252c32 5%, #f4e8da 5%, #f4e8da 30%, #dab7a3 30%, #dab7a3 70%, #87624f 70%);
+}

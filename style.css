@@ -39,3 +39,39 @@ h3 {
 .sixth {
   top: 83%;
 }
+
+
+
+.small {
+  margin-left: 20px;
+  margin-top: -1px;
+  font-family: monospace, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.key {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height: 200px;
+}
+.espresso {
+  background: #5b4644;
+  position: absolute;
+  left: 17%;
+}
+.milk {
+  background: #dab7a3;
+  position: absolute;
+  left: 40%;
+}
+.foam {
+  background: #f4e8da;
+  position: absolute;
+  left: 63%;
+}
+.water {
+  background: #859fb5;
+  position: absolute;
+  left: 83%;
+}

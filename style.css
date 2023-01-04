@@ -20,3 +20,22 @@ h3 {
 .first, .second, .third, .fourth, .fifth, .sixth {
   position: absolute;
 }
+
+.first {
+  top: 7%;
+}
+.second {
+  top: 21%;
+}
+.third {
+  top: 36%;
+}
+.fourth {
+  top: 52%;
+}
+.fifth {
+  top: 65%;
+}
+.sixth {
+  top: 83%;
+}

@@ -40,7 +40,12 @@ h3 {
   top: 83%;
 }
 
-
+.info {
+  width: 55%;
+  height: 100%;
+  position: absolute;
+  left: 43%;
+}
 
 .small {
   margin-left: 20px;
